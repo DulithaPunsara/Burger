@@ -1,0 +1,42 @@
+<!-- Updated HTML for Stores Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee | Stores</title>
+    <link rel="stylesheet" href="stores(emp).css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Stores</h1>
+        </header>
+        <div class="content">
+            <div class="category-menu">
+                <button class="category-button active">🍔Burgers</button>
+                <button class="category-button">🌭Submarines</button>
+                <button class="category-button">🍟Fries</button>
+                <button class="category-button">🍜Pasta</button>
+                <button class="category-button">🍗Chicken</button>
+                <button class="category-button">🧋Beverages</button>
+            </div>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search item here...">
+            </div>
+            <div class="items" id="itemsContainer">
+               
+
+                <div class="item add-new" id="addNewItem">
+                    <span>+</span>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <button class="logout-button" onClick=openPlaceOrderPage()>Back</button>
+           
+        </footer>
+    </div>
+    <script src="stores(emp).js"></script> 
+</body>
+</html>
